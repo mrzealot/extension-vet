@@ -1,0 +1,23 @@
+{
+  "name": "extension-vet",
+  "version": "1.0.0",
+  "description": "Checking the differences between the declared and actual API usages of chrome extensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrzealot/extension-vet.git"
+  },
+  "author": "Dénes Bán <mr@zealot.hu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrzealot/extension-vet/issues"
+  },
+  "homepage": "https://github.com/mrzealot/extension-vet#readme",
+  "dependencies": {
+    "espree": "^4.0.0",
+    "estraverse": "^4.2.0"
+  }
+}
